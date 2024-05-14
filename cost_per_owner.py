@@ -62,7 +62,7 @@ def print_report(costs):
         print(f"{owner:<20}| ${cost:>10.2f}")
 
 
-def main():
+def main():  # pragma: no cover
     """
     Calculates the start and end dates for the last 30 days, then runs the cost analysis.
     """
@@ -84,5 +84,5 @@ def main():
     print_report(results)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     main()
