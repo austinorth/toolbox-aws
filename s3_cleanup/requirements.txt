@@ -39,7 +39,7 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-jose==3.4.0
 PyYAML==6.0.1
-requests==2.32.2
+requests==2.32.4
 responses==0.25.0
 rich==13.7.1
 rsa==4.9
